@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="University_regForm">
+<listeners>
+<listener class-name="TestNgFramework.Listeners"></listener>
+</listeners>
+
+
+<parameter name="markx" value="markx.com"/>
+<parameter name="mark3" value="markx3.com"/>
+
+
+	<test thread-count="5" name="Test">
+
+
+	
+		<classes>
+
+			<class name="TestNgFramework.TestNg_Basic">
+
+
+			</class>
+
+
+			<class name="TestNgFramework.TestNg_Basic2">
+
+				<methods>
+
+					
+
+
+				</methods>
+			</class>
+			<class name="TestNgFramework.diff_module" >
+			
+			<methods>
+			<exclude name=".api*"/>
+			</methods>
+			</class>
+		</classes>
+
+	</test> <!--
+	Test -->
+	<test name="loanApplication">
+		<classes>
+
+			<class name="TestNgFramework.diff_module2">
+			
+			
+				<methods>
+
+					<include name=".api*" />
+				</methods>
+
+
+			</class>
+		</classes>
+	</test>
+
+</suite> <!--
+University_regForm -->
