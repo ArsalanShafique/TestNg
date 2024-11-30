@@ -17,6 +17,7 @@ public class TestNg_Basic2 {
 		System.out.println("gotosigned is done");
 		System.out.println(url);
 		System.out.println(name);
+		System.out.println("the branch is merged in it ");
 	}
 	@Test
 	public void gotosignout() {
