@@ -19,6 +19,8 @@ public class TestNg_Basic {
 		System.out.println("Dataprovider is running");
 	System.out.println(username);
 	System.out.println(password);
+	System.out.println("new brach is created");
+	System.out.println("new branch have beeen created");
 	}
 	
 	@DataProvider

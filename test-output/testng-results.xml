@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-06T09:33:19 PKT" name="Default suite" finished-at="2024-11-06T09:33:19 PKT" duration-ms="191">
+  <suite started-at="2024-12-01T10:08:10 PKT" name="University_regForm" finished-at="2024-12-01T10:08:11 PKT" duration-ms="294">
     <groups>
       <group name="sanity">
-        <method signature="TestNg_Basic.gotoGoogle()[pri:0, instance:TestNgFramework.TestNg_Basic@478190fc]" name="gotoGoogle" class="TestNgFramework.TestNg_Basic"/>
+        <method signature="TestNg_Basic.gotoGoogle()[pri:0, instance:TestNgFramework.TestNg_Basic@1b7cc17c]" name="gotoGoogle" class="TestNgFramework.TestNg_Basic"/>
+        <method signature="TestNg_Basic2.gotoSignin(java.lang.String,java.lang.String)[pri:0, instance:TestNgFramework.TestNg_Basic2@747ddf94]" name="gotoSignin" class="TestNgFramework.TestNg_Basic2"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-11-06T09:33:19 PKT" name="Default test" finished-at="2024-11-06T09:33:19 PKT" duration-ms="191">
+    <test started-at="2024-12-01T10:08:10 PKT" name="Test" finished-at="2024-12-01T10:08:10 PKT" duration-ms="173">
       <class name="TestNgFramework.TestNg_Basic">
-        <test-method signature="data(java.lang.String,java.lang.String)[pri:0, instance:TestNgFramework.TestNg_Basic@478190fc]" started-at="2024-11-06T09:33:19 PKT" name="data" data-provider="getdata" finished-at="2024-11-06T09:33:19 PKT" duration-ms="19" status="PASS">
+        <test-method signature="data(java.lang.String,java.lang.String)[pri:0, instance:TestNgFramework.TestNg_Basic@1b7cc17c]" started-at="2024-12-01T10:08:10 PKT" name="data" data-provider="getdata" finished-at="2024-12-01T10:08:10 PKT" duration-ms="15" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- data -->
-        <test-method signature="data(java.lang.String,java.lang.String)[pri:0, instance:TestNgFramework.TestNg_Basic@478190fc]" started-at="2024-11-06T09:33:19 PKT" name="data" data-provider="getdata" finished-at="2024-11-06T09:33:19 PKT" duration-ms="2" status="PASS">
+        <test-method signature="data(java.lang.String,java.lang.String)[pri:0, instance:TestNgFramework.TestNg_Basic@1b7cc17c]" started-at="2024-12-01T10:08:10 PKT" name="data" data-provider="getdata" finished-at="2024-12-01T10:08:10 PKT" duration-ms="9" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- data -->
-        <test-method signature="data(java.lang.String,java.lang.String)[pri:0, instance:TestNgFramework.TestNg_Basic@478190fc]" started-at="2024-11-06T09:33:19 PKT" name="data" data-provider="getdata" finished-at="2024-11-06T09:33:19 PKT" duration-ms="3" status="PASS">
+        <test-method signature="data(java.lang.String,java.lang.String)[pri:0, instance:TestNgFramework.TestNg_Basic@1b7cc17c]" started-at="2024-12-01T10:08:10 PKT" name="data" data-provider="getdata" finished-at="2024-12-01T10:08:10 PKT" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -58,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- data -->
-        <test-method signature="gotoGoogle()[pri:0, instance:TestNgFramework.TestNg_Basic@478190fc]" started-at="2024-11-06T09:33:19 PKT" name="gotoGoogle" finished-at="2024-11-06T09:33:19 PKT" duration-ms="23" status="FAIL">
+        <test-method signature="gotoGoogle()[pri:0, instance:TestNgFramework.TestNg_Basic@1b7cc17c]" started-at="2024-12-01T10:08:10 PKT" name="gotoGoogle" finished-at="2024-12-01T10:08:10 PKT" duration-ms="15" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -103,6 +104,76 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </reporter-output>
         </test-method> <!-- gotoGoogle -->
       </class> <!-- TestNgFramework.TestNg_Basic -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="TestNgFramework.diff_module">
+        <test-method is-config="true" signature="firstexecution()[pri:0, instance:TestNgFramework.diff_module@639c2c1d]" started-at="2024-12-01T10:08:10 PKT" name="firstexecution" finished-at="2024-12-01T10:08:10 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstexecution -->
+        <test-method is-config="true" signature="everymethod()[pri:0, instance:TestNgFramework.diff_module@639c2c1d]" started-at="2024-12-01T10:08:10 PKT" name="everymethod" finished-at="2024-12-01T10:08:10 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- everymethod -->
+        <test-method signature="apiapplicationdemo()[pri:0, instance:TestNgFramework.diff_module@639c2c1d]" started-at="2024-12-01T10:08:10 PKT" name="apiapplicationdemo" finished-at="2024-12-01T10:08:10 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiapplicationdemo -->
+        <test-method is-config="true" signature="everymethod()[pri:0, instance:TestNgFramework.diff_module@639c2c1d]" started-at="2024-12-01T10:08:10 PKT" name="everymethod" finished-at="2024-12-01T10:08:10 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- everymethod -->
+        <test-method signature="mobileapplicationdemo()[pri:0, instance:TestNgFramework.diff_module@639c2c1d]" started-at="2024-12-01T10:08:10 PKT" name="mobileapplicationdemo" finished-at="2024-12-01T10:08:10 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileapplicationdemo -->
+        <test-method is-config="true" signature="everymethod()[pri:0, instance:TestNgFramework.diff_module@639c2c1d]" started-at="2024-12-01T10:08:10 PKT" name="everymethod" finished-at="2024-12-01T10:08:10 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- everymethod -->
+        <test-method signature="webapplicationdemo()[pri:0, instance:TestNgFramework.diff_module@639c2c1d]" started-at="2024-12-01T10:08:10 PKT" name="webapplicationdemo" finished-at="2024-12-01T10:08:10 PKT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webapplicationdemo -->
+        <test-method is-config="true" signature="lastexecution()[pri:0, instance:TestNgFramework.diff_module@639c2c1d]" started-at="2024-12-01T10:08:10 PKT" name="lastexecution" finished-at="2024-12-01T10:08:10 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastexecution -->
+      </class> <!-- TestNgFramework.diff_module -->
+      <class name="TestNgFramework.TestNg_Basic2">
+        <test-method signature="gotoSignin(java.lang.String,java.lang.String)[pri:0, instance:TestNgFramework.TestNg_Basic2@747ddf94]" started-at="2024-12-01T10:08:10 PKT" name="gotoSignin" finished-at="2024-12-01T10:08:10 PKT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[markx.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[markx3.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoSignin -->
+        <test-method signature="gotosignout()[pri:0, instance:TestNgFramework.TestNg_Basic2@747ddf94]" started-at="2024-12-01T10:08:10 PKT" name="gotosignout" finished-at="2024-12-01T10:08:10 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotosignout -->
+      </class> <!-- TestNgFramework.TestNg_Basic2 -->
+    </test> <!-- Test -->
+    <test started-at="2024-12-01T10:08:11 PKT" name="loanApplication" finished-at="2024-12-01T10:08:11 PKT" duration-ms="2">
+      <class name="TestNgFramework.diff_module">
+        <test-method is-config="true" signature="execute()[pri:0, instance:TestNgFramework.diff_module@639c2c1d]" started-at="2024-12-01T10:08:10 PKT" name="execute" finished-at="2024-12-01T10:08:10 PKT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execute -->
+      </class> <!-- TestNgFramework.diff_module -->
+      <class name="TestNgFramework.diff_module2">
+        <test-method is-config="true" signature="lastrun()[pri:0, instance:TestNgFramework.diff_module2@6ed3ccb2]" started-at="2024-12-01T10:08:11 PKT" name="lastrun" finished-at="2024-12-01T10:08:11 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastrun -->
+      </class> <!-- TestNgFramework.diff_module2 -->
+    </test> <!-- loanApplication -->
+  </suite> <!-- University_regForm -->
 </testng-results>
