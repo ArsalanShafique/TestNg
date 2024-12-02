@@ -27,11 +27,13 @@ public class diff_module {
  public void webapplicationdemo() {
 	 
 	 System.out.println("webapplication is running");
+	 System.out.println("test is working done");
  }
 	@Test
  public void mobileapplicationdemo() {
 	 
 	 System.out.println("mobileapplicationdemo is running");
+	 System.out.println("test is working done ");
  }
 	@Test
  public void apiapplicationdemo() {
